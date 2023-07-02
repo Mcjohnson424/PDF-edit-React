@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f1f1ee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  height: 10vh;
+}
+.base-style{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-width: 2;
+  border-radius: 2;
+  border-color: #6ACDB4 !important;
+  border-style: dashed;
+  background-color: #f1f1ee;
+  color: #bdbddd;
+  outline: none;
+  transition: border .24s ease-in-out;
+  height: 40px;
+  padding: 50px;
+}
+
+.browse {
+  color: rgb(66, 84, 240);
+  cursor: pointer;
+}
+
+.drop-zone{
+  width: 400px;
+  margin: auto;
+}
+
+.main{
+  height: 90vh;
+  display: flex;
+}
+
+.edit-panel{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+.hidden{
+  display: none;
+}
+
+
+.pdf-viewer {
+  margin: 0 auto;
+  width: 90%;
+  z-index: 0;
+  margin-top: 30px;
+}
+.pdf-viewer-content {
+  padding-left: 20px;
+  padding-right: 20px;
+}
